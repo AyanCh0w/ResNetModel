@@ -2,7 +2,7 @@
 Image Classification model designed off ResNet.
 
 --------------------------------------------
-import torch
+'''import torch
 import torch.nn as nn
 
 class BasicBlock(nn.Module):
@@ -68,4 +68,4 @@ class ResNet(nn.Module):
 
 layerSizes = [3, 4, 6, 3] #Same Sizes resnet uses
 outputClasses = 7 #Ex 7 different emotions to predict of an image
-model = ResNet(layerSizes, outputClasses)
+model = ResNet(layerSizes, outputClasses)'''
